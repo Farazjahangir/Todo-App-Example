@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding : 0
+}
+.container{
+    text-align: center;
+    margin-top : 30px
+}
+.input-box{
+   width: 30%;
+   border-radius : 20px;
+   padding : 9px;
+   border: 1px solid lightgray;
+   outline: none
+}
+.head{
+    margin-top: 40px; 
+    text-align: center
+}
+
+.btn{
+    border: 1px solid #3498db;
+    background: #3498db;
+    border-radius : 15px;
+    font-size: 15px;
+    padding: 7px;
+    margin-left : 12px;
+    color : white;
+    text-shadow: 1px 1px black;
+    cursor: pointer;
+   outline: none;
+}
+
+.list{
+    list-style-type: none;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 70%;
+}
+.list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    padding : 10px;
+    margin-top: 10px;
+    border-radius : 10px;
+    font-size: 19px;
+}
+.list li:hover{
+    background: lightgray;
+    cursor: pointer;
+}
+
+.deleteBtn{
+    padding : 6px;
+    font-size: 15px;
+    background: #eb2f06;
+    color: white;
+    border: 1px solid #eb2f06;
+    border-radius : 7px;
+    text-shadow: 1px 1px 1px black;
+    cursor : pointer;
+    outline: none;
+    margin-right: 10px;
+}
+.editBtn{
+    padding : 6px;
+    font-size: 15px;
+    background: #808e9b;
+    color: white;
+    border: 1px solid #808e9b;
+    border-radius : 7px;
+    text-shadow: 1px 1px 1px black;
+    cursor : pointer;
+    outline: none;
+}
+.doneBtn{
+    padding : 6px;
+    font-size: 15px;
+    background: #4b7bec;
+    color: white;
+    border: 1px solid #4b7bec;
+    border-radius : 7px;
+    text-shadow: 1px 1px 1px black;
+    cursor : pointer;
+    outline: none;
+}
+
+.input-box{
+    padding: 7px;
+    flex: 0.9;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
